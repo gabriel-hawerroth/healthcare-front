@@ -1,0 +1,55 @@
+.bottom-sheet {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.3em 0;
+        gap: 10px;
+    }
+
+    .bottom-section {
+        width: 100%;
+        display: flex;
+
+        .thanks {
+            width: 60%;
+            padding: 1em;
+            font-size: 1.2em;
+            text-align: justify;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        .contact-details {
+            flex: 1;
+            padding: 0 2.5em;
+
+            a {
+                width: 100%;
+                height: 43px;
+                cursor: pointer;
+                transition: .3s;
+
+                &:hover {
+                    background-color: #d7d7d78c;
+                }
+
+                div {
+                    width: 100%;
+                    display: flex;
+                    padding-left: 35%;
+                    gap: 7px;
+                }
+            }
+        }
+    }
+}

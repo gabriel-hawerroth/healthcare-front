@@ -21,7 +21,7 @@ System Features:
 
 -   Register, change, view and delete data from patients, units and attendances (crud).
 -   User registration.
-    -Login.
+-   Login.
 -   Password recovery.
 -   Encryption of passwords with bcrypt.
 -   Validations, auto-completion by zip code and other features in the forms.
